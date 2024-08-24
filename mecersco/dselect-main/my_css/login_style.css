@@ -1,0 +1,150 @@
+#main {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* text-align: center; */
+    color: #2c3e50;
+    /* margin-top: 60px; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 0 auto;
+    height: 70px;
+    background-color: #9732a8;
+    border-bottom: 15px solid #d598df;
+}
+
+footer {
+    margin: 0 auto;
+    height: 70px;
+    background-color: #9732a8;
+    border-top: 15px solid #d598df;
+}
+
+.content {
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+}
+
+.logohss7 {
+    width: 400px;
+    margin: -13px 0 0 0px;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    margin: 30px auto;
+}
+
+.title_logo {
+    margin: 0 auto;
+}
+
+.form_login {
+    max-width: 500px;
+    width: 100%;
+
+    margin: 30px auto;
+    /* padding: 20px 100px; */
+    border: 10px solid #9732a8;
+    border-radius: 10px;
+}
+
+.form_login .login_content a {
+    text-decoration: none;
+}
+
+/* .btn_login {
+    margin-bottom: 20px;
+} */
+
+.btn_login button {
+    margin: 0 15px;
+}
+
+.form_login h2 {
+    margin-bottom: 20px;
+}
+
+.login_content {
+    margin: 20px;
+    padding: 10px 50px;
+}
+
+.login_content .btn_login i {
+    margin-right: 10px;
+}
+
+.form_login .login_content .register {
+    margin-top: 10px;
+}
+
+.form_login .login_content .register a:hover {
+    color: red;
+}
+
+.modal-side {
+    /* background: #000; */
+    border-right: 1px solid #cccdcf;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.modal-side img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #5c5d5e;
+}
+
+.modal-box {
+    display: flex;
+}
+
+.modal-box .modal-body {
+    padding: auto 50px;
+}
+
+
+/* sign in modal */
+.modal .form-group {
+    display: flex;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.modal-content.active .list-group-flush .form-group {
+    display: block;
+}
+
+.pad15 {
+    padding: 10px;
+}
+
+.modal-body .panel .panel-heading {
+    background: rgb(216, 211, 211);
+    border: 2px solid rgb(27, 27, 27);
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.modal-body .panel .panel-body {
+    border: 2px solid rgb(216, 212, 212);
+    /* background: rgb(139, 137, 137); */
+    border-radius: 3px;
+}
+
+.modal-body .panel .panel-bodyy {
+    border: 2px solid rgb(216, 212, 212);
+    /* background: rgb(139, 137, 137); */
+    border-radius: 3px;
+}
+

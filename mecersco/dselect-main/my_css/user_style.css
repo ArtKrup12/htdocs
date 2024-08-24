@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background: #f5f6fa;
+}
+
+
+
+/* sidebar */
+.wrapper .sidebar {
+	background: rgb(5, 15, 104);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 225px;
+	height: 100%;
+	padding: 20px 0;
+	transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.wrapper .sidebar .profile img {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3 {
+	color: #ffffff;
+	margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile h4 {
+	color: #ffffff;
+	margin: 10px 0 10px;
+}
+
+.wrapper .sidebar .profile p {
+	color: rgb(206, 240, 253);
+	font-size: 14px;
+	background: rgb(240, 153, 54);
+	margin: 0 60px;
+	padding: 5px;
+	border-radius: 5%;
+}
+
+.wrapper .sidebar .profile .user-status {
+	background: rgb(12, 12, 12);
+	margin-left: 45px;
+	margin-right: 45px;
+	padding: 2px;
+	border-radius: 10px;
+}
+
+.wrapper .sidebar .profile .user-status .icon {
+	color: #f18f0f;
+}
+
+.wrapper .sidebar .profile .user-status .name {
+	color: #f1c40f;
+}
+
+.wrapper .sidebar ul li a {
+	display: block;
+	padding: 10px 30px;
+	border-bottom: 1px solid #10558d;
+	color: rgb(241, 237, 237);
+	font-size: 16px;
+	position: relative;
+}
+
+.wrapper .sidebar ul li a .icon {
+	color: #dee4ec;
+	width: 30px;
+	display: inline-block;
+}
+
+.wrapper .sidebar .footer-item ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.wrapper .sidebar .footer-item li a {
+	display: flex;
+	border-bottom: 0;
+	margin: 30px 10px;
+	padding: 3px 10px;
+	border-radius: 10px;
+}
+
+.wrapper .sidebar .footer-item li a .icon {
+	width: 25px;
+}
+
+.wrapper .sidebar .footer-item li a {
+	background: rgb(61, 57, 57);
+}
+
+.wrapper .sidebar .footer-item li a:hover {
+	border-right: 0;
+}
+
+.wrapper .sidebar .footer-item li a.red:hover {
+	background: rgb(233, 10, 10);
+	color: #000;
+	border-right: 0;
+}
+
+.wrapper .sidebar .footer-item li a:hover .icon {
+	color: #000;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active {
+	color: #0c7db1;
+
+	background: white;
+	border-right: 2px solid rgb(5, 15, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon {
+	color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before {
+	display: block;
+}
+
+
+
+
+/* Main-Content */
+
+.wrapper .section {
+	width: calc(100% - 225px);
+	margin-left: 225px;
+	transition: all 0.5s ease;
+}
+
+.wrapper .section .main {
+	padding: 15px;
+	text-align: center;
+}
+
+.wrapper .section .main h2 {
+	color: #424241;
+}
+
+.wrapper .section .main .chart1 {
+	margin: 20px;
+}
+
+
+
+.wrapper .section .footer {
+	background: #9732a8;
+	border-top: 5px solid #d598df;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.wrapper .section .footer h5{
+	margin: 0 10px;
+	color: #c7c7c4;
+}
+
+
+
+
+/* navbar  */
+.wrapper .section .top_navbar {
+	background: #9732a8;
+	border-bottom: 5px solid #d598df;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+	position: sticky;
+	top: 0;
+}
+
+.wrapper .section .top_navbar .hamburger{
+	display: flex;
+}
+
+.wrapper .section .top_navbar .hamburger a {
+	font-size: 28px;
+	color: #f4fbff;
+	/* margin: 0 5px; */
+	margin-right: 20px;
+}
+
+
+.wrapper .section .top_navbar .hamburger a:hover {
+	color: #a2ecff;
+}
+
+.wrapper .section .top_navbar .hamburger .logo-item{
+	display: flex;
+	align-items: center;
+}
+
+.wrapper .section .top_navbar .hamburger .logo-item img {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+
+.wrapper .section .top_navbar .hamburger .logo-item a {
+	font-size: 18px;
+}
+
+
+
+
+/* body responsive */
+body.active .wrapper .sidebar {
+	left: -225px;
+}
+
+body.active .wrapper .section {
+	margin-left: 0;
+	width: 100%;
+}
+
+
+
+.wrapper .section .main {
+	/* height: 100%; */
+}

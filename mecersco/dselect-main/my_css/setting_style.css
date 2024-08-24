@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ol,
+ul {
+    padding-left: 0;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #f5f6fa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* sidebar */
+.wrapper .sidebar {
+    background: rgb(5, 15, 104);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h3 {
+    color: #ffffff;
+    margin: 10px 0 5px;
+}
+
+.wrapper .sidebar .profile h4 {
+    color: #ffffff;
+    margin: 10px 0 10px;
+}
+
+.wrapper .sidebar .profile .user-status {
+    background: rgb(12, 12, 12);
+    margin-left: 45px;
+    margin-right: 45px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.wrapper .sidebar .profile .user-status .icon {
+    color: #f18f0f;
+}
+
+.wrapper .sidebar .profile .user-status .name {
+    color: #f1c40f;
+}
+
+.wrapper .sidebar ul li a {
+    display: block;
+    padding: 10px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .icon {
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+}
+
+.wrapper .sidebar .footer-item ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.wrapper .sidebar .footer-item li a {
+    display: flex;
+    border-bottom: 0;
+    margin: 30px 10px;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.wrapper .sidebar .footer-item li a .icon {
+    width: 25px;
+}
+
+.wrapper .sidebar .footer-item li a {
+    background: rgb(61, 57, 57);
+}
+
+.wrapper .sidebar .footer-item li a:hover {
+    border-right: 0;
+}
+
+.wrapper .sidebar .footer-item li a.red:hover {
+    background: rgb(233, 10, 10);
+    color: #000;
+    border-right: 0;
+}
+
+.wrapper .sidebar .footer-item li a:hover .icon {
+    color: #000;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active {
+    color: #0c7db1;
+
+    background: white;
+    border-right: 2px solid rgb(5, 15, 104);
+}
+
+.wrapper .sidebar ul li a:hover .icon,
+.wrapper .sidebar ul li a.active .icon {
+    color: #0c7db1;
+}
+
+.wrapper .sidebar ul li a:hover:before,
+.wrapper .sidebar ul li a.active:before {
+    display: block;
+}
+
+
+
+
+/* Main-Content */
+
+.wrapper .section {
+    width: calc(100% - 225px);
+    margin-left: 225px;
+    transition: all 0.5s ease;
+}
+
+.wrapper .section .main {
+    padding: 15px;
+    text-align: center;
+}
+
+.wrapper .section .main h2 {
+    color: #424241;
+}
+
+.wrapper .section .main .chart1,
+.wrapper .section .main .chart2 {
+    margin: 20px 0 40px;
+}
+
+.wrapper .section .main .chart1 h5,
+.wrapper .section .main .chart2 h5 {
+    /* margin-bottom: 20px; */
+}
+
+
+
+.wrapper .section .footer {
+    background: #9732a8;
+    border-top: 5px solid #d598df;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper .section .footer h6 {
+    margin: 0 10px;
+    color: #c7c7c4;
+    font-size: 12px;
+}
+
+
+
+
+/* navbar  */
+.wrapper .section .top_navbar {
+    background: #9732a8;
+    border-bottom: 5px solid #d598df;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.wrapper .section .top_navbar .hamburger .logo-item .text-item {
+    display: grid;
+}
+
+.wrapper .section .top_navbar .hamburger {
+    display: flex;
+}
+
+.wrapper .section .top_navbar .hamburger a {
+    font-size: 28px;
+    color: #f4fbff;
+    margin-right: 20px;
+}
+
+
+.wrapper .section .top_navbar .hamburger a:hover {
+    color: #a2ecff;
+}
+
+.wrapper .section .top_navbar .hamburger .logo-item {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .section .top_navbar .hamburger .logo-item img {
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.wrapper .section.active .top_navbar .hamburger .logo-item img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+.wrapper .section .top_navbar .hamburger .logo-item a {
+    font-size: 18px;
+}
+
+.wrapper .section.active .top_navbar .hamburger .logo-item a {
+    font-size: 14px;
+}
+
+
+
+
+/* body responsive */
+body.active .wrapper .sidebar {
+    left: -225px;
+}
+
+body.active .wrapper .section {
+    margin-left: 0;
+    width: 100%;
+}
+
+.wrapper .section .main {
+    height: calc(100% + 225px);
+    width: 100%;
+}
+
+.wrapper .section.active .main {
+    /* height: 250vh; */
+    height: calc(100% + 225px);
+    /* width: calc(100% + 225px); */
+}
+
+.wrapper .section.active .top_navbar {
+    /* width: calc(100% + 225px); */
+}
+
+.wrapper .section.active .footer {
+    /* width: calc(100% + 225px); */
+}
+
+.wrapper .section.fix .top_navbar .hamburger .logo-item {
+    display: none;
+}
+
+.wrapper .section.fix .footer .by {
+    display: none;
+}
+
+
+
+/* font fix */
+.card {
+    position: unset;
+}
+
+.form-group {
+    padding: 15px;
+    display: flex;
+}
+
+.wrapper .section .main .chart1 .tool_table table tbody tr td form #info-modal .form-group {
+    padding: 0;
+    display: unset;
+}
+
+.wrapper .section .main .chart1 .tool_table table tbody tr td form #info-modal .list-group {
+    padding: 10px;
+}
+
+.chart1.active .form-group {
+    display: block;
+}
+
+.pad15 {
+    padding: 0 10px;
+    text-align: left;
+    align-self: center;
+}
+
+.pad16 {
+    padding: 10px;
+    text-align: left;
+    align-self: center;
+}
+
+.mar-top-bottom10 {
+    margin: 10px 0 5px;
+}
+
+.profile {
+    color: #fff;
+}
+
+.sidebar .profile .namenrank {
+    margin-top: 10px;
+}
+
+.sidebar .profile .namenrank h5,
+h6 {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+/* font fix */
+
+
+.chart1 .btn-footer {
+    text-align: end;
+    margin-top: 20px;
+}
+
+.chart1 .btn-footer button {
+    margin: 0 2px;
+}
+
+/* tool table */
+.wrapper .section .main .chart2 div p {
+    /* margin-top: 20px; */
+}
+
+.wrapper .section .main .chart2 .tool_table {
+    margin-top: 20px;
+}
+
+.wrapper .section .main .chart2 .tool_table tbody tr td img, 
+.wrapper .section .main .chart1 .tool_table tbody tr td img {
+    width: 120px;
+    border: 1px solid #000;
+}
+
+.wrapper .section .main .chart2 .tool_table tbody tr th,
+.wrapper .section .main .chart2 .tool_table tbody tr .klang {
+    /* padding-top: 50px; */
+}
+
+.wrapper .section .main .chart2 .tool_table tbody tr .klang50 {
+    /* padding: 40px 20px; */
+}
+
+.wrapper .section .main .chart2 .tool_table tbody tr .klang50 button {
+    margin: 0 1rem;
+}
+
+
+/* history table */
+.wrapper .section .main .chart1 .history_table tbody tr td button {
+    margin-bottom: 5px;
+}
+
+.wrapper .section .main .chart2 .history_table tbody tr td button {
+    margin-bottom: 5px;
+}
+
+.wrapper .section.active .form-group {
+    display: block;
+}
+
+/* detail-list-modal */
+.wrapper .section .modal .modal-body .topper-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wrapper .section .modal .modal-body .topper-info p {
+    margin-right: 2rem;
+}
+
+.wrapper .section.active .modal-body .topper-info {
+    display: block;
+}
+
+.wrapper .section .modal-body .footer-info {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .section .modal .modal-body .footer-info p {
+    margin-right: 3rem;
+}
+
+.wrapper .section.active .modal .modal-body .footer-info {
+    display: block;
+}
+
+.wrapper .section .modal .modal-body .footer-info .groupp {
+    display: flex;
+}
+
+.wrapper .section .modal .modal-body .card {
+    text-align: center;
+}
+
+.wrapper .section .modal .modal-body .card .list-group .detail_list_table table tbody tr td img {
+    width: 120px;
+    border: 1px solid #000;
+}
+
+/* borrow page fix not flex */
+.wrapper .section .main .chart2 .tool_select{
+    display: flex;
+    justify-content: center;
+}
+.wrapper .section .main .chart2 .tool_select .w80{
+    width: 80%;
+}

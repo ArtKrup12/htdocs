@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b0c45ff3-b9f3-468f-b470-fa1b90835130" name="jsgroup_mkt" url="http://www.jsgroup1973.com">
+        <fileTransfer host="www.jsgroup1973.com" port="2121">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

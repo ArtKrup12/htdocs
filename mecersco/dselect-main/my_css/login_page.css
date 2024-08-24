@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav */
+.main nav {
+    height: 50px;
+    background: #9732a8;
+    border-bottom: 15px solid #d598df;
+}
+
+.main nav img {
+    width: 300px;
+    margin: -10px 0 0 0px;
+}
+
+/* content */
+.main div.container-fluid {
+    padding-top: 16px;
+    padding-bottom: 20px;
+}
+
+.main div.container-fluid div div center img {
+    width: 100px;
+    height: 100px;
+}
+
+.main div.container-fluid div div.program_name b{
+    color: rgb(45, 139, 222);
+}
+
+.main div.container-fluid div div.program_name {
+    margin-top: 5px;
+    color: #696969;
+}
+
+/* login box */
+.main div.container-fluid .login_container {
+    max-width: 480px;
+    width: 100%;
+    margin: 20px auto;
+    /* background: #000; */
+    border: 10px solid #9732a8;
+    border-radius: 10px;
+}
+
+.main div.container-fluid .login_container form.login {
+    padding: 20px 40px;
+}
+
+.main div.container-fluid .login_container form.register a{
+    text-decoration: none;
+    color: #000;
+}
+
+.main div.container-fluid .login_container form.register a:hover {
+    color: red;
+}
+
+
+/* modal */
+.modal-side {
+    /* background: #000; */
+    border-right: 1px solid #cccdcf;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.modal-side img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #5c5d5e;
+}
+
+.modal-box {
+    display: flex;
+}
+
+.modal-box .modal-body {
+    padding: auto 50px;
+}
+
+
+/* sign in modal */
+.modal .form-group {
+    display: flex;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.modal-content.active .list-group-flush .form-group {
+    display: block;
+}
+
+.pad15 {
+    padding: 10px;
+}
+
+
