@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/cboden/ratchet" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/evenement/evenement" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/ratchet/rfc6455" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/react/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/react/dns" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/react/event-loop" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/react/promise" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/react/socket" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/react/stream" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/symfony/polyfill-php83" />
+      <excludeFolder url="file://$MODULE_DIR$/testws/vendor/symfony/routing" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

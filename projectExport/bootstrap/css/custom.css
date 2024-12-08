@@ -1,0 +1,119 @@
+@font-face {  
+  font-family: prompt;  
+  src: url('../fonts/Prompt-Regular.ttf');
+  
+}
+.body{
+  font-family: prompt;
+}
+.font1{
+    font-family: prompt;
+     font-size:30px;
+}
+.font2{
+    font-family: prompt;
+     font-size:14px;
+}
+
+/*แทบเมนูด้านบน*/
+.navbar {
+background: #FF99CC;
+border-color: #09F;
+ 
+}
+ 
+/*สีและเส้นขอบปุ่มสี่เหลี่ยม*/
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+  background:#fff;
+}
+ 
+/*สีแถบเวลาชี้ลิงค์*/#bs-example-navbar-collapse-1 li:hover{
+  background:#fff;
+  box-shadow: 0px 5px #51C1F1 inset; /*เส้นข้างบนแถบ*/
+}
+
+.text-honda {
+  color: #3c763d;
+}
+a.text-honda:hover,
+a.text-honda:focus {
+  color: #8E1B02;
+}
+
+.bg-honda {
+  color: #fff;
+  background-color: #337ab7;
+}
+a.bg-honda:hover,
+a.bg-honda:focus {
+  background-color: #561102;
+}
+
+.btn-honda {
+  color: #fff;
+  background-color: #A51005;
+  border-color: #4cae4c;
+}
+.btn-honda:focus,
+.btn-honda.focus {
+  color: #fff;
+  background-color: #8E1B02;
+  border-color: #255625;
+}
+.btn-honda:hover {
+  color: #fff;
+  background-color: #8E1B02;
+  border-color: #561102;
+}
+.btn-honda:active,
+.btn-honda.active,
+.open > .dropdown-toggle.btn-honda {
+  color: #fff;
+  background-color: #8E1B02;
+  border-color: #398439;
+}
+.btn-honda:active:hover,
+.btn-honda.active:hover,
+.open > .dropdown-toggle.btn-honda:hover,
+.btn-honda:active:focus,
+.btn-honda.active:focus,
+.open > .dropdown-toggle.btn-honda:focus,
+.btn-honda:active.focus,
+.btn-honda.active.focus,
+.open > .dropdown-toggle.btn-honda.focus {
+  color: #fff;
+  background-color: #561102;
+  border-color: #255625;
+}
+.btn-honda:active,
+.btn-honda.active,
+.open > .dropdown-toggle.btn-honda {
+  background-image: none;
+}
+.btn-honda.disabled:hover,
+.btn-honda[disabled]:hover,
+fieldset[disabled] .btn-honda:hover,
+.btn-honda.disabled:focus,
+.btn-honda[disabled]:focus,
+fieldset[disabled] .btn-honda:focus,
+.btn-honda.disabled.focus,
+.btn-honda[disabled].focus,
+fieldset[disabled] .btn-honda.focus {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-honda .badge {
+  color: #8E1B02;
+  background-color: #fff;
+}
+
+.box.box-primary {
+  border-top-color: #536878;
+}
+.nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #536878;
+}
+.nav-tabs-custom.tab-primary > .nav-tabs > li.active {
+  border-top-color: #536878;
+}

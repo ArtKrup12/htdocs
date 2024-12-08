@@ -1,0 +1,7 @@
+.card-header-bg.card-outline {
+    border-top: 3px solid #9B111E;
+}
+
+.nav-tabs .nav-link.active {
+    border-top: 3px solid #9B111E !important;
+}

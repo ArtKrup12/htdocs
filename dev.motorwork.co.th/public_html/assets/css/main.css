@@ -1,0 +1,129 @@
+/* all */
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* ปรับขนาดและสีของ scrollbar สำหรับ webkit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 6px; /* ความกว้างของ scrollbar */
+    height: 6px; /* ความสูงของ scrollbar สำหรับแนวนอน */
+}
+
+/* สีของส่วนของ scrollbar ที่แสดง */
+::-webkit-scrollbar-thumb {
+    background-color: #9B111E; /* สีของ scrollbar */
+    border-radius: 10px; /* มุมโค้งของ scrollbar */
+}
+
+/* สีของส่วนที่ไม่ใช่ scrollbar thumb */
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* สีพื้นหลังของพื้นที่ที่เป็น track ของ scrollbar */
+    /*background-color: red; !* สีพื้นหลังของพื้นที่ที่เป็น track ของ scrollbar *!*/
+    border-radius: 10px; /* มุมโค้งของ track */
+}
+
+/* สีของส่วนที่แสดงระหว่างการเลื่อน (hover) */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #9B111E; /* เปลี่ยนสีของ thumb เมื่อ hover */
+}
+/* all */
+
+/* head bg color outline */
+.card-header-bg.card-outline {
+    border-top: 3px solid #9B111E;
+}
+/* head bg color outline */
+
+.nav-tabs .nav-link.active {
+    border-top: 3px solid #9B111E !important;
+}
+
+
+/* datatable */
+.dataTables_filter {
+    display: none;
+}
+
+.dataTables_length {
+    display: none;
+}
+
+/* ปรับสีพื้นหลังของปุ่ม active */
+.dataTables_paginate .paginate_button.page-item.active .page-link {
+    background-color: #9B111E; /* สีพื้นหลังใหม่ */
+    color: white; /* สีข้อความใหม่ */
+    border-color: #9B111E; /* สีขอบใหม่ */
+}
+
+.dataTables_paginate .paginate_button.page-item .page-link:focus {
+    outline: none; /* ปิดขอบเดิม */
+    box-shadow: 0 0 5px rgba(155, 17, 30, 0.7); 
+}
+
+.dataTables_paginate .paginate_button.page-item .page-link {
+    color: gray; /* สีข้อความใหม่ */
+}
+
+/* ตัวอย่างปรับแต่งเพิ่มเติม */
+.dataTables_paginate .paginate_button.page-item.active .page-link:hover {
+    background-color: #821212; /* สีเมื่อ hover */
+    border-color: #821212;
+}
+
+.dataTables_paginate .paginate_button.previous .page-link,
+.dataTables_paginate .paginate_button.next .page-link {
+    color: gray; /* สีตัวหนังสือ */
+}
+    /* datatable */
+
+/* badge style */
+.packageInFoStatus{
+    font-size: 16px;
+}
+
+/* badge style */
+
+input:focus {
+    border-color: #9B111E!important; /* เปลี่ยนเป็นสีที่คุณต้องการ */
+    outline: none; /* ซ่อนเส้นขอบเริ่มต้น */
+    /*box-shadow: 0 0 4px rgba(0, 123, 255, 0.5); !* เพิ่มเงารอบเส้นขอบ *!*/
+}
+
+.no-border-button {
+    border: none !important;      /* เอาเส้นกรอบออก */
+    outline: none !important;     /* เอาเส้นที่โฟกัสออก */
+    /*background-color: #28a745;    !* สีพื้นหลังของปุ่ม *!*/
+    color: white;                 /* สีตัวอักษร */
+    padding: 10px 20px;           /* กำหนดระยะห่างด้านในปุ่ม */
+    border-radius: 5px;           /* มุมมนของปุ่ม */
+    font-size: 16px;
+    cursor: pointer;
+}
+.no-border-button:focus {
+    border: none !important;      /* เอาเส้นกรอบออก */
+    outline: none !important;     /* เอาเส้นที่โฟกัสออก */
+    /*background-color: #28a745;    !* สีพื้นหลังของปุ่ม *!*/
+    color: white;                 /* สีตัวอักษร */
+    padding: 10px 20px;           /* กำหนดระยะห่างด้านในปุ่ม */
+    border-radius: 5px;           /* มุมมนของปุ่ม */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* ลบกรอบและเอาเส้นโฟกัสออกจากปุ่ม confirm ของ SweetAlert */
+.swal2-confirm:focus {
+    outline: none !important;     /* เอาเส้นโฟกัสออก */
+    box-shadow: none !important;  /* เอาเงาของการโฟกัสออก */
+}
+
+/* หากต้องการปรับแต่งปุ่ม confirm ของ SweetAlert เพิ่มเติม */
+.swal2-confirm {
+    border: none !important;      /* เอาเส้นกรอบออก */
+    outline: none !important;     /* เอาเส้นโฟกัสออก */
+    background-color: #28a745;    /* สีพื้นหลังของปุ่ม */
+    color: white;                 /* สีตัวอักษร */
+    padding: 10px 20px;           /* กำหนดระยะห่างด้านในปุ่ม */
+    border-radius: 5px;           /* มุมมนของปุ่ม */
+    font-size: 16px;               /* ขนาดตัวอักษร */
+    cursor: pointer;             /* แสดง cursor เป็น pointer */
+}
